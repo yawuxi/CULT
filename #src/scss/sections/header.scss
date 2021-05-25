@@ -1,0 +1,152 @@
+/*----- header ----- */
+
+.header {
+   &__content {
+      padding-top: 30px;
+      display: flex;
+      align-items: center;
+   }
+
+   &__desc {
+      flex: 0 1 45%;
+   }
+
+   &__desc2 {
+      display: flex;
+      display: none;
+      flex: 0 1 45%;
+   }
+
+   &__phone {
+      flex: 0 1 14%;
+   }
+}
+
+.header-logo {
+   display: flex;
+   align-items: center;
+   flex: 0 1 50%;
+   &__image {
+      flex: 0 1 50px;
+   }
+
+   &__text {
+      letter-spacing: 4px;
+      font-size: 36px;
+      font-weight: 200;
+   }
+}
+
+// burger
+
+/*
+.burger-menu {
+   display: none;
+}
+
+
+
+@media (max-width: 767px) {
+   body.lock {
+      overflow: hidden;
+   }
+   .burger-menu {
+      content: "";
+      display: block;
+      position: relative;
+      left: 0px;
+      top: 0px;
+      width: 30px;
+      height: 20px;
+      z-index: 4;
+   }
+
+   .burger-menu::before {
+      content: "";
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+      transition: transform 0.2s;
+   }
+
+   .burger-menu::after {
+      content: "";
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+      transition: transform 0.2s;
+   }
+
+   .burger-menu span {
+      content: "";
+      position: absolute;
+      left: 0px;
+      bottom: 9px;
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+      transition: transform 0.2s;
+   }
+
+   .burger-menu.active::before {
+      transform: rotate(45deg);
+      top: 9px;
+   }
+
+   .burger-menu.active::after {
+      transform: rotate(-45deg);
+      bottom: 9px;
+   }
+   .burger-menu.active span {
+      transform: scale(0);
+   }
+
+   .menu__body {
+      position: fixed;
+      left: 0;
+      top: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      padding: 100px 0px 0px 25px;
+      transition: top 0.3s;
+      overflow: auto;
+   }
+
+   .menu__body.active {
+      top: 0;
+   }
+
+   .menu__list {
+      flex-direction: column;
+   }
+
+   .menu__list li {
+      margin: 25px 0px 0px 0px;
+   }
+
+   .menu__list li:first-child {
+      margin: 0;
+   }
+
+   .header::before {
+      z-index: 4;
+   }
+
+   .header__logo {
+      z-index: 5;
+      flex: 0 0 50px;
+   }
+
+   .header__menu {
+      height: 75px;
+   }
+}
+
+*/

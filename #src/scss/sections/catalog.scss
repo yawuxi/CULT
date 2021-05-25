@@ -1,0 +1,50 @@
+/*----- catalog ----- */
+
+.catalog {
+   background-image: url(../../img/catalog__bg.png);
+   background-repeat: no-repeat;
+   padding-bottom: 100px;
+   &__content {
+   }
+
+   &__title {
+      margin-bottom: 100px;
+      color: #fff;
+   }
+}
+
+.catalog-item {
+   &__content {
+      background-color: #fff;
+      height: 600px;
+      border-radius: 10px;
+      padding: 5px 20px 0px 20px;
+      display: flex;
+      flex-direction: column;
+   }
+
+   &__photo {
+      margin-bottom: 20px;
+      align-self: center;
+   }
+
+   &__title {
+      font-weight: 700;
+      font-size: 34px;
+      color: #000;
+      margin-bottom: 20px;
+   }
+
+   &__desc {
+      font-size: 22px;
+      line-height: 33px;
+      color: #000000;
+      margin-bottom: 135px;
+   }
+
+   &__price {
+      font-weight: 700;
+      font-size: 34px;
+      color: #4bc740;
+   }
+}

@@ -1,0 +1,45 @@
+/*----- benfits ----- */
+.benefits {
+   &__content {
+      padding: 100px 0px;
+   }
+
+   &__title {
+      margin-bottom: 100px;
+   }
+
+   &__list {
+      display: flex;
+      justify-content: center;
+   }
+}
+
+.benefits-item {
+   flex: 0 1 33.333%;
+   &__content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+   &__image {
+      margin-bottom: 35px;
+   }
+
+   &__title {
+      font-weight: 600;
+      font-size: 30px;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 35px;
+      @include adaptive-font(30, 26);
+   }
+
+   &__desc {
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #000000;
+      @include adaptive-font(16, 14);
+      line-height: 150%;
+   }
+}

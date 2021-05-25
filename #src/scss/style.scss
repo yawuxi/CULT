@@ -1,0 +1,18 @@
+// Сюда импортировать все стили scss
+@import "variables";
+@import "fonts";
+@import "global";
+@import "mixins";
+@import "ui";
+@import "popup";
+@import "queries";
+// Стили секций сайта
+@import "sections/header";
+@import "sections/hero";
+@import "sections/promo";
+@import "sections/catalog";
+@import "sections/benefits";
+@import "sections/divider-button";
+@import "sections/trust-factor";
+@import "sections/reviews";
+@import "sections/footer";

@@ -1,0 +1,46 @@
+// <Основной файл scss>
+
+// <Переменные для style.scss>
+$minWidth: 320; // Минимальная ширина сайта
+$maxWidth: 1920; // Максимальная ширина сайта
+$maxWidthContainer: 1170px; // Максимальная ширина контейнера
+$md1: $maxWidthContainer;
+$md2: 991.98px;
+$md3: 768.98px;
+$md4: 479.98px;
+// </Переменные для style.scss>
+
+/*----- оболочка ----- */
+@import "null";
+.wrapper {
+   width: 100%;
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+
+.lock {
+   overflow: hidden;
+}
+
+/*----- основная сетка ----- */
+._container {
+   max-width: $maxWidthContainer;
+   padding: 0px 15px;
+   margin: 0 auto;
+   @media (max-width: $md1) {
+      max-width: 970px;
+   }
+   @media (max-width: $md2) {
+      max-width: 750px;
+   }
+   @media (max-width: $md3) {
+      max-width: none;
+   }
+}
+
+/*----- основной блок ----- */
+.main {
+   flex: 1 1 auto;
+}

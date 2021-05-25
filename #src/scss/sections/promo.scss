@@ -1,0 +1,17 @@
+/*----- promo ----- */
+.promo {
+   &__content {
+      padding: 100px 0px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+
+   &__title {
+      margin-bottom: 100px;
+   }
+
+   &__video2 {
+      display: none;
+   }
+}

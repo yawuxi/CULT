@@ -1,0 +1,35 @@
+/*----- trust factor ----- */
+.trust-factor {
+   &__content {
+      padding: 100px 0px;
+   }
+
+   &__list {
+      display: flex;
+      justify-content: center;
+   }
+}
+
+.trust-factor-item {
+   flex: 0 1 40%;
+   &__num {
+      font-weight: 800;
+      font-size: 96px;
+      text-align: center;
+      color: #000000;
+   }
+
+   &__title {
+      font-weight: 600;
+      font-size: 30px;
+      text-align: center;
+      color: #000000;
+   }
+
+   &__desc {
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      color: #000000;
+   }
+}
